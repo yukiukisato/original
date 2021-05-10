@@ -2,79 +2,95 @@
  <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="posts.scss">
-    <title>Soccer Channel</title>
+    <title>Delical</title>
   </head>
   <body>
     <header>
       <div class="heading">
-        <h1 class="title-left">Now is Football</h1>
-        <%# <%= link_to "ログイン", "#",class: title_right%> %>
+        <h1 class="title-left">Delical</h1>
+        
       </div>
       <div class="navbar">
-        <ul class="nav-lists">
-          <li>会場案内</li>
-          <li>メニュー</li>
-          <li>スケジュール一覧</li>
-          <li>ギャラリー</li>
-        </ul>
+       <% unless user_signed_in? %>
+         <%= link_to "ログイン", new_user_session_path,class: "login" %> 
+         <%= link_to "新規登録", new_user_registration_path,class: "sign-up" %>
+        <%else%>
+         <%= link_to current_user.nickname,"#", class:"user-nickname" %>
+         <%= link_to "ログアウト", destroy_user_session_path,method: :delete,class: "logout" %>
+         <%end%>
       </div>
     </header>
 
     <div class="contents">
       <div class="first-view">
-        <%# <img src="images/soccer.jpeg" alt="トップ画面" class="top-image"> %>
+        <div class="first-view-left">
+        頑張った分だけ
+        </div>
+        <div class="symbol">
+        ➡︎
+        </div>
+        <div class="first-view-right">
+        ご褒美を！！
+        </div>
       </div>
       <div class="upper-content">
-        <h2 class="heading-name">新着情報</h2>
-        <ul class="messages">
-          <li class="message">
-            <div class="message-date">2019/10/06</div>
-            <div>【新規のお客さま限定】<b>10％OFF</b>キャンペーン</div>
+        <h2 class="heading-name">運動強度</h2>
+        <ul class="sports">
+          <li class="sport">
+            <div class="high-sport">ランニング</div>
           </li>
-          <li class="message">
-            <div class="message-date">2019/10/03</div>
-            <div>うれしい<b>ポイントアップキャンペーン</b></div>
+          <li class="sport">
+            <div class="high-sport">ウォーキング</div>
           </li>
-          <li class="message">
-            <div class="message-date">2019/09/27</div>
-            <div>2020年成人式 ご予約承ります</div>
+          <li class="sport">
+            <div class="high-sport">自転車を漕ぐ</div>
           </li>
-          <li class="message">
-            <div class="message-date">2018/10/03</div>
-            <div>うれしい<b>ポイントアップキャンペーン</b></div>
+          <li class="sport">
+            <div class="high-sport">プールで泳ぐ</div>
           </li>
-          <li class="message">
-            <div class="message-date">2018/09/27</div>
-            <div>2019年成人式 ご予約承ります</div>
+          <li class="sport">
+            <div class="high-sport">椅子に座る</div>
+          </li>
+
+        </ul>
+        
+        <h2 class="heading-name">カロリー(例）</h2>
+        <ul class="foods">
+          <li class="food">
+            <div class="high-food">絹ごし豆腐</div>
+            <div>100gあたり<b>60kcal</b></div>
+          </li>
+          <li class="food">
+            <div class="high-food">カツ丼</div>
+            <div> <b>900kcal</b></div>
+          </li>
+          <li class="food">
+            <div class="high-food">カルボナーラ</div>
+            <div><b>700kcal</b></div>
+          </li>
+          <li class="food">
+            <div class="high-food">ピザ</div>
+            <div><b>600kcal</b></div>
+          </li>
+          <li class="food">
+            <div class="high-food">ラーメン</div>
+            <div><b>500kcal</b></div>
+          </li>
+          <li class="food">
+            <div class="high-food">ショートケーキ</div>
+            <div><b>340kcal</b></div>
           </li>
         </ul>
+        
       </div>
       <div class="middle-content">
-        <h2 class="heading-name">スタイリスト紹介</h2>
-        <ul class="stylist-list">
-          <li>
-            <img src="images/staff1.jpg" alt="staff1" class="stylist-image">
-            <h4 class="stylist-name">鈴木</h4>
-          </li>
-          <li>
-            <img src="images/staff2.jpg" alt="staff2" class="stylist-image">
-            <h4 class="stylist-name">佐藤</h4>
-          </li>
-          <li>
-            <img src="images/staff3.jpg" alt="staff3" class="stylist-image">
-            <h4 class="stylist-name">山田</h4>
-          </li>
-        </ul>
+       <div class="sentence">美味しいものはカロリーが高いことが多く、そのカロリーを消費するためにはどのくらいの時間どういった運動が必要となるのでしょうか。計算してみましょう!!</div>
+        
       </div>
 
       <div class="bottom-content">
-        <form class="contact-form">
-          <h2 class="heading-name">メールで予約</h2>
-          <input type="text" placeholder="name" class="small-field">
-          <input type="text" placeholder="e-mail" class="small-field">
-          <textarea placeholder="message" class="large-field"></textarea>
-          <input type="submit" value="SEND" class="send">
-        </form>
+       <%= button_to "食べ物カロリー(例)", {controller: 'foods', action: 'index'}, {method: :get,class: "blue"} %>
+        <%= button_to "計算してみよう", {controller: 'calculations', action: 'index'}, {method: :get,class: "red"} %>
       </div>
 
     </div>

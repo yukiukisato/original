@@ -1,0 +1,47 @@
+header{
+ background: -moz-linear-gradient(top, #FFC778, #FFF);
+ background: -webkit-linear-gradient(top, #FFC778, #FFF);
+ background: linear-gradient(to bottom, #FFC778, #FFF);
+ display: flex;
+ justify-content: center;
+}
+
+.hd{
+ font-size: 40px;
+}
+.InputMember{
+  /*	background: red;*/
+    display:inline-block;
+    width:150px;
+  }
+
+.formula{
+  height: 30vh;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.keisan{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-btn{
+  display: flex;
+  justify-content: space-evenly;
+}
+.top-page-btn{
+  background-color: rgb(190, 187, 187);
+  padding: 10px;
+  border: 1px solid;
+  text-decoration: none;
+}
+.foods-page-btn{
+  background-color: rgb(198, 221, 160);
+  padding: 10px;
+  border: 1px solid;
+  text-decoration: none;
+}

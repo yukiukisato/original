@@ -1,0 +1,163 @@
+.top-messages{
+  background: -moz-linear-gradient(top, #FFC778, #FFF);
+  background: -webkit-linear-gradient(top, #FFC778, #FFF);
+  background: linear-gradient(to bottom, #FFC778, #FFF);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.top-message{
+  font-size: 30px;
+}
+.menu-top{
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-name{
+  font-size: 30px;
+  background-color: rgb(142, 189, 50);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid;
+}
+
+.top-name2{
+  font-size: 30px;
+  background-color: tomato;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+}
+.set-name{
+  font-size: 20px;
+  color: white;
+  background-color: rgb(142, 189, 50);
+}
+.donburi-name{
+  font-size: 20px;
+  color: white;
+  background-color: rgb(142, 189, 50);
+}
+.men-name{
+  font-size: 20px;
+  color: white;
+  background-color:rgb(142, 189, 50);
+}
+.c-set-name{
+  font-size: 20px;
+  color: white;
+  background-color: tomato;
+}
+.c-donburi-name{
+  font-size: 20px;
+  color: white;
+  background-color: tomato;
+}
+.c-name{
+  font-size: 20px;
+  color: white;
+  background-color: tomato;
+}
+ul{
+  list-style: none;
+}
+
+.middle-menu-top{
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.middle-top-name{
+  font-size: 30px;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid;
+}
+
+.middle-top-name2{
+  font-size: 30px;
+  background-color: rgb(180, 87, 87);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid;
+}
+
+.f-set-name{
+  font-size: 20px;
+  color: white;
+  background-color: turquoise;
+}
+.pasta-name{
+  font-size: 20px;
+  color: white;
+  background-color: turquoise;
+}
+.f-name{
+  font-size: 20px;
+  color: white;
+  background-color:turquoise;
+}
+
+.hamburger-name{
+  font-size: 20px;
+  color: white;
+  background-color: rgb(180, 87, 87);
+}
+.side-name{
+  font-size: 20px;
+  color: white;
+  background-color: rgb(180, 87, 87);
+}
+
+.bottom-top-name{
+  font-size: 30px;
+  background-color: rgb(250, 142, 241);
+  border:  2px solid;
+  display:inline-grid;
+  margin: 0 0 20px 180px;
+  
+}
+
+.sweet{
+  display: flex;
+  margin-left: 40px;
+}
+
+.dessert-name{
+  font-size: 20px;
+  color: white;
+  background-color: rgb(250, 142, 241);
+}
+
+.bottom-btn2{
+  display: flex;
+  justify-content: space-evenly;
+}
+.red-btn{
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+  background-color: lightgreen;
+}
+
+.top-pages-btn{
+  display: flex;
+  align-items: center;
+  background-color: rgb(190, 187, 187);
+  padding: 10px;
+  border: 1px solid;
+  text-decoration: none;
+}
