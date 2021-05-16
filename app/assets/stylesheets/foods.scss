@@ -152,18 +152,19 @@ ul{
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  height: 60px;
-  width: 200px;
+  height: 40px;
+  padding: 10px;
   font-size: 20px;
   background-color: lightgreen;
   border-radius: 100vh;
   box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  border-bottom: 5px solid rgb(75, 73, 73);
 }
 .red-btn:hover{
   margin-top: 5px;
   color: #000;
   background:  lightgreen;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid rgb(75, 73, 73);
   
 }
 
@@ -171,16 +172,18 @@ ul{
   display: flex;
   align-items: center;
   background-color: rgb(190, 187, 187);
+  height: 40px;
   padding: 10px;
   border: 1px solid;
   text-decoration: none;
   border-radius: 100vh;
   box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  border-bottom: 5px solid rgb(75, 73, 73);
 }
 .top-pages-btn:hover{
   margin-top: 5px;
-  color: #000;
+  color: rgb(75, 73, 73);
   background:  rgb(190, 187, 187);
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid rgb(75, 73, 73);
   
 }

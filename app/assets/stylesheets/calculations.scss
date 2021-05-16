@@ -32,18 +32,42 @@ header{
 .home-btn{
   display: flex;
   justify-content: space-evenly;
+  height: 200px;
 }
 .top-page-btn{
+  height: 30px;
   background-color: rgb(190, 187, 187);
   padding: 10px;
   border: 1px solid;
   text-decoration: none;
   border-radius: 100vh;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  border-bottom: 5px solid rgb(75, 73, 73);
 }
+
+.top-page-btn:hover{
+  margin-top: 5px;
+  color: rgb(75, 73, 73);
+  background:  rgb(190, 187, 187);
+  border-bottom: 2px solid rgb(75, 73, 73);
+  
+}
+
 .foods-page-btn{
+  height: 30px;
   background-color: rgb(198, 221, 160);
   padding: 10px;
   border: 1px solid;
   text-decoration: none;
   border-radius: 100vh;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  border-bottom: 5px solid rgb(75, 73, 73);
+}
+
+.foods-page-btn:hover{
+  margin-top: 5px;
+  color: rgb(75, 73, 73);
+  background:  rgb(198, 221, 160);
+  border-bottom: 2px solid rgb(75, 73, 73);
+  
 }
