@@ -435,7 +435,7 @@
  
 </div>
 <div class="bottom-btn2">
-   <%= button_to "計算してみよう", {controller: 'calculations', action: 'index'}, {method: :get,class: "red-btn"} %>
+   <%= link_to "計算してみよう",calculations_path, class:'red-btn' %>
    <%= link_to "トップページ",root_path ,class: 'top-pages-btn'%>
 </div>
 

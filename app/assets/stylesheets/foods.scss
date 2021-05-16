@@ -147,11 +147,23 @@ ul{
   justify-content: space-evenly;
 }
 .red-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   height: 60px;
   width: 200px;
   font-size: 20px;
   background-color: lightgreen;
   border-radius: 100vh;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+.red-btn:hover{
+  margin-top: 5px;
+  color: #000;
+  background:  lightgreen;
+  border-bottom: 2px solid #000;
+  
 }
 
 .top-pages-btn{
@@ -162,4 +174,12 @@ ul{
   border: 1px solid;
   text-decoration: none;
   border-radius: 100vh;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+.top-pages-btn:hover{
+  margin-top: 5px;
+  color: #000;
+  background:  rgb(190, 187, 187);
+  border-bottom: 2px solid #000;
+  
 }
