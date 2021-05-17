@@ -32,6 +32,10 @@
     <%= f.submit "ログイン" ,class:"login-red-btn" %>
   </div>
 </div>
+<div>
+<div class="bottom-sentence">まだ新規登録されていない方はこちら</div>
+<%=link_to "新規登録",new_user_registration_path,class:'sign-up-go'%>
+</div>
 <% end %>
 
 <%# <%= render "shared/second-footer"%> 

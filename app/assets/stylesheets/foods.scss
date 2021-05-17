@@ -2,26 +2,28 @@
   background: -moz-linear-gradient(top, #FFC778, #FFF);
   background: -webkit-linear-gradient(top, #FFC778, #FFF);
   background: linear-gradient(to bottom, #FFC778, #FFF);
-  height: 70px;
+  height: 15vh;
   display: flex;
   justify-content: center;
 }
 
 .top-message{
-  font-size: 30px;
+  margin-top: 8px;
+  font-size: 40px;
 }
 .menu-top{
-  height: 15vh;
+  height: 10vh;
   display: flex;
   justify-content: space-around;
 }
 
-.top-name{
+.top-name1{
   font-size: 30px;
   background-color: rgb(142, 189, 50);
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 5px;
   border: 2px solid;
 }
 
@@ -31,6 +33,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 5px;
   border: 2px solid;
 }
 .menu{
@@ -72,7 +75,7 @@ ul{
 }
 
 .middle-menu-top{
-  height: 15vh;
+  height: 10vh;
   display: flex;
   justify-content: space-around;
 }
@@ -84,6 +87,7 @@ ul{
   justify-content: space-around;
   align-items: center;
   border: 2px solid;
+  padding: 5px;
 }
 
 .middle-top-name2{
@@ -93,6 +97,7 @@ ul{
   justify-content: space-around;
   align-items: center;
   border: 2px solid;
+  padding: 5px;
 }
 
 .f-set-name{
@@ -128,6 +133,7 @@ ul{
   border:  2px solid;
   display:inline-grid;
   margin: 0 0 20px 180px;
+  padding: 5px;
   
 }
 
@@ -155,14 +161,16 @@ ul{
   height: 40px;
   padding: 10px;
   font-size: 20px;
+  color: #000;
   background-color: lightgreen;
+  border: 1px solid black;
   border-radius: 100vh;
   box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
   border-bottom: 5px solid rgb(75, 73, 73);
 }
 .red-btn:hover{
   margin-top: 5px;
-  color: #000;
+  color: rgb(75, 73, 73);
   background:  lightgreen;
   border-bottom: 2px solid rgb(75, 73, 73);
   
@@ -171,6 +179,7 @@ ul{
 .top-pages-btn{
   display: flex;
   align-items: center;
+  color: #000;
   background-color: rgb(190, 187, 187);
   height: 40px;
   padding: 10px;

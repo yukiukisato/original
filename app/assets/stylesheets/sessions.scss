@@ -2,6 +2,9 @@
   height: 100px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  background-color: whitesmoke;
 }
 
 .form-group{
@@ -20,5 +23,38 @@
 .login-btn{
   display: flex;
   justify-content: center;
+  height: 100px;
+}
+.login-red-btn{
+  background-color: rgb(157, 241, 233);
+  height: 70px;
+  padding: 12px;
+  font-size: 20px;
+  border-radius: 100vh;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  border-bottom: 5px solid rgb(75, 73, 73);
 }
 
+.login-red-btn:hover{
+  margin-top: 5px;
+  color: rgb(75, 73, 73);
+  background:  rgb(238, 212, 125);
+  border-bottom: 2px solid rgb(75, 73, 73);
+}
+
+.sign-up-go{
+  color: #000;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 100vh;
+  text-decoration: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  border-bottom: 5px solid rgb(75, 73, 73);
+}
+
+.sign-up-go:hover{
+  margin-top: 5px;
+  color: rgb(75, 73, 73);
+  background:  rgb(238, 212, 125);
+  border-bottom: 2px solid rgb(75, 73, 73);
+}
