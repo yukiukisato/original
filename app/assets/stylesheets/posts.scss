@@ -13,29 +13,50 @@ header {
 
 .login{
   margin-left: 30px;
+  height: 30px;
+  color: white;
+  background-color: darkorange;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   text-decoration: none;
 }
 .sign-up{
   margin-left: 20px;
-  border: black;
+  height: 30px;
+  color: #f0f0f0;
+  background-color: darkorange;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   text-decoration: none;
+}
+.greeting{
+  display: flex;
+  align-items: center;
 }
 
 .logout{
   margin-left: 30px;
+  height: 30px;
+  padding: 5px;
   display: flex;
-  align-items: flex-end;
+  color: #f0f0f0;
+  background-color: darkorange;
+  border: 1px solid black;
+  align-items: center;
   text-decoration: none;
+  border-radius: 0.5rem;
 }
 .user-nickname{
   margin-left: 20px;
-  border: black;
+  color: black;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   text-decoration: none;
 }
 
