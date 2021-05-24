@@ -25,6 +25,10 @@
   align-items: center;
   padding: 5px;
   border: 2px solid;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-radius: 3vh;
+  border-color:gray;
 }
 
 .top-name2{
@@ -35,6 +39,10 @@
   align-items: center;
   padding: 5px;
   border: 2px solid;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-radius: 3vh;  
+  border-color:gray;
 }
 .menu{
   display: flex;
@@ -87,7 +95,10 @@ ul{
   justify-content: space-around;
   align-items: center;
   border: 2px solid;
-  padding: 5px;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-radius: 3vh;  padding: 5px;
+  border-color:gray;
 }
 
 .middle-top-name2{
@@ -97,7 +108,11 @@ ul{
   justify-content: space-around;
   align-items: center;
   border: 2px solid;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-radius: 3vh;
   padding: 5px;
+  border-color:gray;
 }
 
 .f-set-name{
@@ -133,7 +148,11 @@ ul{
   border:  2px solid;
   display:inline-grid;
   margin: 0 0 20px 180px;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-radius: 3vh;
   padding: 5px;
+  border-color: gray;
   
 }
 
