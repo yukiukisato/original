@@ -6,6 +6,8 @@ class PostsController < ApplicationController
     
   end
 
-  private 
+  def show
+  end
+
 
 end

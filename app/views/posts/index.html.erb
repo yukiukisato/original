@@ -14,7 +14,7 @@
          <%= link_to "新規登録", new_user_registration_path,class: "sign-up" %>
         <%else%>
         <div class="greeting">ようこそ</div>
-         <%= link_to "#{current_user.nickname}さん","#", class:"user-nickname" %>
+         <%= link_to "#{current_user.nickname}さん",post_path(current_user), class:"user-nickname" %>
          <%= link_to "ログアウト", destroy_user_session_path,method: :delete,class: "logout" %>
          <%end%>
       </div>
